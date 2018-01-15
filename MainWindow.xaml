@@ -1,0 +1,67 @@
+﻿<Window x:Class="Calendar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calendar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="386.275" Width="559.314">
+    <Grid>
+        <Button Content="26" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="27" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="82,40,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="28" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="155,40,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="29" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="227,40,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="30" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="300,40,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="1" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="372,40,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="2" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="445,40,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="3" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="4" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="82,90,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="5" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="155,90,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button  BorderThickness="3" HorizontalAlignment="Left" VerticalContentAlignment="Top" Margin="227,90,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB" BorderBrush="#FFDC0F0F" IsCancel="True">
+            <TextBlock TextWrapping="Wrap" TextAlignment="Right" Width="63">6<LineBreak></LineBreak>MyBirthday</TextBlock>
+        </Button>
+        <Button Content="7" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="300,90,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="8" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="372,90,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFF5F4F4"/>
+        <Button Content="9" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="445,90,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="White"/>
+        <Button Content="10" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="11" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="82,140,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="12" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="155,140,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="13" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="227,140,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="14" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="300,140,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="15" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="372,140,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="16" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="445,140,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="17" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="72" Height="49" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="18" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="82,190,0,0" VerticalAlignment="Top" Width="73" Height="49" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="19" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="155,190,0,0" VerticalAlignment="Top" Width="72" Height="49" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="20" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="227,190,0,0" VerticalAlignment="Top" Width="73" Height="49" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="21" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="300,190,0,0" VerticalAlignment="Top" Width="72" Height="49" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button BorderThickness="3" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="372,190,0,0" VerticalAlignment="Top" Width="73" Height="49" Background="#FF919191" Foreground="#FFFBFBFB" BorderBrush="#FFB80D0D">
+            <TextBlock TextWrapping="Wrap" TextAlignment="Right">22 <LineBreak></LineBreak>Day Off</TextBlock>
+        </Button>
+        <Button Content="23" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="445,190,0,0" VerticalAlignment="Top" Width="72" Height="49" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button BorderThickness="3" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB" BorderBrush="#FFCB0E0E">
+            <TextBlock TextWrapping="Wrap" TextAlignment="Right">24<LineBreak></LineBreak>Holiday</TextBlock>
+        </Button>
+        <Button Content="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="82,239,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="26" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="155,239,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="27" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="227,239,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="28" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="300,239,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="29" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="372,239,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="30" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="445,239,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="31" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="1" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="82,289,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="2" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="155,289,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="3" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="227,289,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="4" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="300,289,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="5" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="372,289,0,0" VerticalAlignment="Top" Width="73" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Button Content="6" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" HorizontalAlignment="Left" Margin="445,289,0,0" VerticalAlignment="Top" Width="72" Height="50" Background="#FF919191" Foreground="#FFFBFBFB"/>
+        <Label Content="Sun" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,14,0,0" Width="73" Background="#FF0A0909" Foreground="#FFF7F7F7"/>
+        <Label Content="Mon" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="83,14,0,0" Width="72" Foreground="White" Background="#FF0E0D0D"/>
+        <Label Content="Tue" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="155,14,0,0" Width="72" Background="Black" Foreground="#FFFBFBFB"/>
+        <Label Content="Wed" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="227,14,0,0" Width="72" Foreground="White" Background="#FF020202"/>
+        <Label Content="Thu" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="299,14,0,0" Width="73" Background="Black" Foreground="White"/>
+        <Label Content="Fri" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="372,14,0,0" Width="73" Foreground="White" Background="Black"/>
+        <Label Content="Sat" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="445,14,0,0" Width="72" Background="Black" Foreground="White"/>
+
+    </Grid>
+</Window>
